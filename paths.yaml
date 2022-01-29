@@ -1,3 +1,4 @@
-version: 8.5
+version: 9
 backend: https://github.com/sumanthhegde55/backend-config.git
 frontend: https://github.com/sumanthhegde55/dbd2.git
+helm_repository: https://github.com/sumanthhegde55/backend-helm.git
