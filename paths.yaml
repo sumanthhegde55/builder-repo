@@ -5,5 +5,5 @@ main-app:
   helmRepoPath: https://github.com/sumanthhegde55/prism_helm
 dependency:
   name: backend
-  sourcePath: Update AccountProvider.jsx
+  sourcePath: https://github.com/sumanthhegde55/backend-config
   helmRepoPath: https://github.com/sumanthhegde55/backend-helm
