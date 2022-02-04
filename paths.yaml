@@ -1,4 +1,9 @@
-version: 10.7
-backend: https://github.com/sumanthhegde55/backend-config.git
-frontend: https://github.com/sumanthhegde55/dbd2.git
-helm_repository: https://github.com/sumanthhegde55/backend-helm.git
+version: 11.0
+main-app:
+  name: frontend
+  sourcePath:
+  helmRepoPath: https://github.com/sumanthhegde55/prism_helm
+dependency: 
+  name: backend
+  sourcePath: 
+  helmRepoPath: https://github.com/sumanthhegde55/backend-helm
