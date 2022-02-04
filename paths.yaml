@@ -1,9 +1,9 @@
 version: 11.0
 main-app:
   name: frontend
-  sourcePath:
+  sourcePath: null
   helmRepoPath: https://github.com/sumanthhegde55/prism_helm
-dependency: 
+dependency:
   name: backend
-  sourcePath: 
+  sourcePath: Update AccountProvider.jsx
   helmRepoPath: https://github.com/sumanthhegde55/backend-helm
