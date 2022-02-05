@@ -5,5 +5,5 @@ mainApp:
   helmRepoPath: https://github.com/sumanthhegde55/prism_helm
 dependency:
   name: backend
-  sourcePath: https://github.com/sumanthhegde55/backend-config
+  sourcePath: 
   helmRepoPath: https://github.com/sumanthhegde55/backend-helm
