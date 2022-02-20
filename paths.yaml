@@ -1,9 +1,10 @@
-version: 12.0
+version: 12.1
 mainApp:
   name: frontend
   sourcePath: https://github.com/sumanthhegde55/dbd2
   helmRepoPath: https://github.com/sumanthhegde55/prism_helm
   ecrRepoName: frontend_test
+  
 dependency:
   name: backend
   sourcePath: https://github.com/sumanthhegde55/backend-config
