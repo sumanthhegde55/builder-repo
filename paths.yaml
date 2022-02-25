@@ -1,16 +1,16 @@
-version: 12.1
+version: 12.1 # version number if required
 
 mainApp:
-  name: frontend
-  sourcePath: https://github.com/sumanthhegde55/dbd2
-  helmRepoPath: https://github.com/sumanthhegde55/prism_helm
-  ecrRepoName: frontend_test
-  port: 3000
+  name: # name of application
+  sourcePath: # eg : https://github.com/<username>:<repo-name> in case of public git repo
+  helmRepoPath: # eg : https://github.com/<username>/<repo-name> in case of public git repo
+  ecrRepoName: #name of repository in ECR
+  port: # port which the container should use, refer Dockerfile to see port which has been exposed
   
 dependency:
-  name: backend
-  sourcePath: https://github.com/sumanthhegde55/backend-config
-  helmRepoPath: https://github.com/sumanthhegde55/backend-helm
-  ecrRepoName: test
-  port: 8089
+  name: # name of application
+  sourcePath: # eg : https://github.com/<username>:<repo-name> in case of public git repo
+  helmRepoPath: # eg : https://github.com/<username>/<repo-name> in case of public git repo
+  ecrRepoName: #name of repository in ECR
+  port:  port which the container should use, refer Dockerfile to see port which has been exposed
   
