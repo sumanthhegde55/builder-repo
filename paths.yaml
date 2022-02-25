@@ -12,5 +12,5 @@ dependency:
   sourcePath: # eg : https://github.com/<username>:<repo-name> in case of public git repo
   helmRepoPath: # eg : https://github.com/<username>/<repo-name> in case of public git repo
   ecrRepoName: #name of repository in ECR
-  port:  port which the container should use, refer Dockerfile to see port which has been exposed
+  port:  # port which the container should use, refer Dockerfile to see port which has been exposed
   
